@@ -1,5 +1,5 @@
 module.exports = {
-  sitename: 'Your awesome site',
-  title: 'Your awesome site',
+  sitename: 'Awesome React Components',
+  title: 'Awesome React Components',
   fontAwesome: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css',
 };

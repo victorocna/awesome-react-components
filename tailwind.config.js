@@ -1,8 +1,5 @@
-const forms = require('@tailwindcss/custom-forms');
-
 module.exports = {
   important: true,
-  plugins: [forms],
   theme: {
     extend: {
       colors: {
