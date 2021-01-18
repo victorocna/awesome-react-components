@@ -4,6 +4,7 @@ import Button from './Button';
 import Favicon from './Favicon';
 import Footer from './Footer';
 import Header from './Header';
+import Hero from './Hero';
 import Layout from './Layout';
 import Link from './Link';
 import Loading from './Loading';
@@ -19,6 +20,7 @@ export {
   Favicon,
   Footer,
   Header,
+  Hero,
   Layout,
   Link,
   Loading,

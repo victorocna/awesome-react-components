@@ -2,6 +2,25 @@ module.exports = {
   sitename: 'Awesome React Components',
   title: 'Awesome React Components',
   fontAwesome: 'https://use.fontawesome.com/releases/v5.6.3/css/all.css',
+  hero: {
+    props: {
+      image: '/images/pexels-manuel-geissinger-325229.jpg',
+      minHeight: 300,
+    },
+    children: ['tryOurDemo', 'paragraph#demo'],
+  },
+  tryOurDemo: {
+    props: {
+      type: 'button',
+      label: 'Try our demo',
+      animate: 'fadeIn',
+    },
+  },
+  'paragraph#demo': {
+    props: {
+      markdown: `**Hello** world`,
+    },
+  },
   team: {
     props: {
       title: 'Dunder Mifflin Team',
