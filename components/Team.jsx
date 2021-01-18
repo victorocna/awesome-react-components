@@ -33,7 +33,7 @@ const Team = () => {
   return (
     <div className="space-y-2">
       {props.title && <h3 className="font-semibold text-lg">{props.title}</h3>}
-      <div className="grid grid-cols-3 gap-4">{children.map(showTeam)}</div>
+      <div className="grid lg:grid-cols-3 gap-4">{children.map(showTeam)}</div>
     </div>
   );
 };
