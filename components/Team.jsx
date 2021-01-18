@@ -1,15 +1,8 @@
-import { useContext } from 'react';
-import { AppContext } from '.';
+import React from 'react';
+import PropTypes from 'prop-types';
 
-const Team = () => {
-  const { team } = useContext(AppContext);
-  if (!team) {
-    return null;
-  }
-
-  const showTeam = (member) => {
-    const { name, avatar, description } = member;
-
+const Team = ({ props, children }) => {
+  const showTeam = ({ name, avatar, description }) => {
     return (
       <div key={name} className="p-4 border rounded-lg bg-white shadow flex items-center space-x-4">
         {avatar && (
@@ -25,17 +18,22 @@ const Team = () => {
     );
   };
 
-  const { props, children } = team;
-  if (!props || !children) {
-    return null;
-  }
-
   return (
-    <div className="space-y-2">
+    <div className="space-y-2 mb-4">
       {props.title && <h3 className="font-semibold text-lg">{props.title}</h3>}
       <div className="grid lg:grid-cols-3 gap-4">{children.map(showTeam)}</div>
     </div>
   );
+};
+
+Team.propTypes = {
+  props: PropTypes.object,
+  children: PropTypes.array,
+};
+
+Team.defaultProps = {
+  props: {},
+  children: [],
 };
 
 export default Team;

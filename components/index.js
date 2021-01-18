@@ -9,6 +9,7 @@ import Link from './Link';
 import Loading from './Loading';
 import Menu from './Menu';
 import OpenGraph from './OpenGraph';
+import Reviews from './Reviews';
 import Team from './Team';
 
 export {
@@ -23,5 +24,6 @@ export {
   Loading,
   Menu,
   OpenGraph,
+  Reviews,
   Team,
 };
