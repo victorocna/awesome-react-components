@@ -1,7 +1,7 @@
 import AppContext from './app-context';
 import AppHead from './AppHead';
 import Button from './Button';
-import Cta from './Cta';
+import ComboBox from './ComboBox';
 import Favicon from './Favicon';
 import Footer from './Footer';
 import Header from './Header';
@@ -18,7 +18,7 @@ export {
   AppContext,
   AppHead,
   Button,
-  Cta,
+  ComboBox,
   Favicon,
   Footer,
   Header,

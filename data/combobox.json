@@ -1,0 +1,24 @@
+{
+  "one": {
+    "props": {
+      "title": "Web Design",
+      "content": "Aliquam venenatis dapibus molestie. Mauris maximus sed eros eget posuere. Integer at pellentesque lacus.",
+      "image": "https://the7.io/elementor-main/wp-content/uploads/sites/77/2020/03/immain-201-796x1024.jpg",
+      "button": {
+        "label": "Discover more",
+        "href": "#"
+      }
+    }
+  },
+  "two": {
+    "props": {
+      "title": "Mobile Apps",
+      "content": "Quisque velit quam, ultricies eu urna a, fermentum sodales libero. Ut congue nisl euismod, lobortis magna.",
+      "image": "https://the7.io/elementor-main/wp-content/uploads/sites/77/2020/11/im-main-10114-1024x683.jpg",
+      "button": {
+        "label": "Discover more",
+        "href": "#"
+      }
+    }
+  }
+}

@@ -19,11 +19,9 @@ const Team = ({ props, children }) => {
   };
 
   return (
-    <div className="max-w-screen-lg mx-auto px-4">
-      <div className="space-y-2 mb-4">
-        {props.title && <h3 className="font-semibold text-lg">{props.title}</h3>}
-        <div className="grid lg:grid-cols-3 gap-4">{children.map(showTeam)}</div>
-      </div>
+    <div className="space-y-2 mb-4">
+      {props.title && <h3 className="font-semibold text-lg">{props.title}</h3>}
+      <div className="grid lg:grid-cols-3 gap-4">{children.map(showTeam)}</div>
     </div>
   );
 };
