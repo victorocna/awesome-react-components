@@ -1,0 +1,8 @@
+{
+  "props": {
+    "title": "Dunder Mifflin Servers",
+    "image": "/images/pexels-manuel-geissinger-325229.jpg",
+    "minHeight": 300
+  },
+  "children": []
+}
