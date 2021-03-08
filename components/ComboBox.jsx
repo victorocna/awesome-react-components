@@ -10,7 +10,7 @@ const ComboBox = ({ props }) => {
         <div className="py-8 lg:py-24 px-4 space-y-4">
           {title && <h3 className="font-semibold text-lg">{title}</h3>}
           {content && <p className="text-sm text-gray-800">{content}</p>}
-          <Button>{button.label}</Button>
+          <Button variant={button.variant}>{button.label}</Button>
         </div>
         <div className="combobox"></div>
       </div>

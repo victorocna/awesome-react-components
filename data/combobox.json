@@ -17,6 +17,7 @@
       "image": "https://the7.io/elementor-main/wp-content/uploads/sites/77/2020/11/im-main-10114-1024x683.jpg",
       "button": {
         "label": "Discover more",
+        "variant": "accent",
         "href": "#"
       }
     }
