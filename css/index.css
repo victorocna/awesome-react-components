@@ -2,4 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
+@import 'buttons.css';
 @import 'menu.css';
