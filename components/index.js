@@ -10,6 +10,8 @@ import Layout from './Layout';
 import Link from './Link';
 import Loading from './Loading';
 import Menu from './Menu';
+import MenuButton from './MenuButton';
+import MenuItem from './MenuItem';
 import OpenGraph from './OpenGraph';
 import Reviews from './Reviews';
 import Team from './Team';
@@ -27,6 +29,8 @@ export {
   Link,
   Loading,
   Menu,
+  MenuButton,
+  MenuItem,
   OpenGraph,
   Reviews,
   Team,
