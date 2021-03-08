@@ -15,6 +15,7 @@ import MenuItem from './MenuItem';
 import OpenGraph from './OpenGraph';
 import Reviews from './Reviews';
 import Team from './Team';
+import withContext from './withContext';
 
 export {
   AppContext,
@@ -34,4 +35,5 @@ export {
   OpenGraph,
   Reviews,
   Team,
+  withContext,
 };

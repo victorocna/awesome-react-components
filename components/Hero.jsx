@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import withContext from './withContext';
 
 const Hero = ({ props, children }) => {
   const { image, minHeight } = props;
@@ -21,11 +22,10 @@ const Hero = ({ props, children }) => {
 
 Hero.propTypes = {
   props: PropTypes.object,
-  children: PropTypes.node,
 };
 
 Hero.defaultProps = {
   props: {},
 };
 
-export default Hero;
+export default withContext(Hero);

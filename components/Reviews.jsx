@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Markdown from 'markdown-to-jsx';
+import withContext from './withContext';
 
 const Reviews = ({ props, children }) => {
   const showReviews = ({ title, content }) => {
@@ -34,4 +35,4 @@ Reviews.defaultProps = {
   children: [],
 };
 
-export default Reviews;
+export default withContext(Reviews);

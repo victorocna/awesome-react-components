@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import withContext from './withContext';
 
 const Team = ({ props, children }) => {
   const showTeam = ({ name, avatar, description }) => {
@@ -36,4 +37,4 @@ Team.defaultProps = {
   children: [],
 };
 
-export default Team;
+export default withContext(Team);

@@ -1,5 +1,5 @@
 import { Layout, Hero, Team, Reviews, ComboBox } from '../components';
-import { hero, reviews, team, combobox } from '../data';
+import { hero, combobox } from '../data';
 
 const Page = () => (
   <Layout>
@@ -13,8 +13,8 @@ const Page = () => (
       </h2>
     </Hero>
     <div className="max-w-screen-lg mx-auto px-4 mb-4">
-      <Team {...team} />
-      <Reviews {...reviews} />
+      <Team />
+      <Reviews />
       <div className="grid lg:grid-cols-2 gap-4">
         <ComboBox {...combobox.one} />
         <ComboBox {...combobox.two} />
